@@ -1,4 +1,4 @@
-# UAV-RR-Jammer-FDTD
+# UAV-RF-Jammer-FDTD
 
 Electromagnetic simulation of a portable 2.4 GHz RF jammer and its coupling into a drone's Wi-Fi link antenna,
 for four jammer antenna designs.
