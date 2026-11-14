@@ -5,7 +5,7 @@ for four jammer antenna designs.
 
 This repository contains the simulation work of the UREP project **"Design and Optimization of a Portable
 Electromagnetic Gun for Targeted RF Signal Suppression"** (UREP 32-0123-250016), carried out at Qatar University
-under the supervision of [Dr. Amith Khandakar](SUPERVISOR_WEBSITE_URL).
+under the supervision of [Dr. Amith Khandakar](https://sites.google.com/view/amith-khandakar/about).
 
 ## What this simulation does
 
@@ -125,9 +125,10 @@ What each result folder holds:
 | `results/stage<X>/plots/` | Geometry, S11 and VSWR, 2D and 3D patterns, coupling and J/S versus frequency and distance, field map |
 | `results/stage<X>/geometry_pictures/` | Rendered views of the TX, the jammer and the scene |
 | `results/stage<X>/patterns3d/` | 3D patterns for ParaView |
+| `results/geometry/` | Ready-made 3D geometry of the TX, each jammer and each scene, for ParaView and AppCSXCAD |
 | `results/compare/` | All four stages on one plot |
 | `results/compare_all/` | Free-space 3D patterns of all four jammers and their summary table |
-| `report/` | The full simulation report (PDF and DOCX) |
+| `report/` | The full simulation report (PDF) |
 
 ## Running the simulation
 
@@ -179,9 +180,11 @@ the antennas or re-run a stage. In short, with openEMS and MATLAB installed:
 ├── params/                 All inputs: TX, jammer, receiver, frequency, mesh, distances
 ├── lib/                    Model builders and helper functions
 ├── tools/                  compare_stages.py: the all-stage comparison plots
-├── docs/                   Geometry viewing guide and the original per-stage notes
-├── results/                Results of stages A to D (summary only)
-└── report/                 Simulation report
+├── docs/                   Geometry viewing guide; archive/ holds the original per-stage notes
+├── results/                Results of stages A to D (summary), plus ready-made geometry files
+├── report/                 Simulation report (PDF)
+├── CITATION.cff            Citation metadata (GitHub shows a "Cite this repository" button)
+└── LICENSE                 To be chosen
 ```
 
 ## Citation
@@ -209,4 +212,4 @@ openEMS and CSXCAD are distributed under their own licenses (GPLv3 and LGPLv3) a
 ## Acknowledgements
 
 This work was carried out under the Undergraduate Research Experience Program (UREP), project UREP 32-0123-250016,
-at Qatar University, supervised by [Dr. Amith Khandakar](SUPERVISOR_WEBSITE_URL).
+at Qatar University, supervised by [Dr. Amith Khandakar](https://sites.google.com/view/amith-khandakar/about).
