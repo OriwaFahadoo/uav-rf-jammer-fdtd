@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "uav-rf-jammer-fdtd: FDTD simulation of a portable 2.4 GHz RF jammer and its coupling into a UAV link antenna"
+abstract: >-
+  openEMS FDTD simulation of four jammer antenna front-ends (bare whip, whip with corner reflector, TSA600 Vivaldi,
+  and TSA600 with corner reflector) and their coupling into a 2.4 GHz UAV Wi-Fi antenna. Simulation work of the UREP
+  project "Design and Optimization of a Portable Electromagnetic Gun for Targeted RF Signal Suppression"
+  (UREP 32-0123-250016), Qatar University.
+authors:
+  - family-names: "FAMILY NAME"
+    given-names: "GIVEN NAME"
+    affiliation: "Qatar University"
+repository-code: "https://github.com/OWNER/uav-rf-jammer-fdtd"
+license: "LICENSE-ID"
+date-released: "2026-11-14"
+keywords:
+  - openEMS
+  - FDTD
+  - RF jamming
+  - counter-UAS
+  - antenna
+  - Vivaldi
+  - corner reflector
