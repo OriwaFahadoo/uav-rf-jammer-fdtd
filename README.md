@@ -193,7 +193,7 @@ If you use this code, please cite:
 
 ```bibtex
 @misc{uav_rf_jammer_fdtd,
-  author       = {Dr. Amith Khandakar, Fahad Abdelshafi Ali},
+  author       = {Dr. Amith Khandakar, FAHAD ALI, FATIMA ABDULLA, ESSA AL-YAZIDI, ALDANA ALMALKI, ABDUL AHAD SHEHBAZ, MOHAMED OTHMAN AYARI},
   title        = {Design and Optimization of a Portable Electromagnetic Gun for Targeted RF Signal Suppression:
                   Simulation},
   year         = {2026},
