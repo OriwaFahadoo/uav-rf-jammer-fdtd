@@ -1,0 +1,11 @@
+# vtk DataFile Version 3.0
+ground plane (m)
+ASCII
+DATASET POLYDATA
+POINTS 4 float
+-0.1563 -0.3193 0
+0.337879 -0.3193 0
+0.337879 0.3193 0
+-0.1563 0.3193 0
+POLYGONS 1 5
+4 0 1 2 3

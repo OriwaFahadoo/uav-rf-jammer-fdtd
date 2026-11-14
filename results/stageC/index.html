@@ -1,0 +1,50 @@
+<!doctype html><meta charset="utf-8"><title>Stage C results</title>
+<style>body{font:15px system-ui;max-width:1100px;margin:20px auto;padding:0 16px}img{max-width:100%;border:1px solid #ccc}figure{margin:24px 0}pre{background:#f4f4f4;padding:10px;overflow:auto}</style>
+<h1>Stage C results: Case 4 RFSPACE TSA600 Vivaldi (330 x 240 mm, 11 dBi @ 2.4 GHz datasheet)</h1>
+<h2>Summary</h2><pre>===== Stage C @ 2.400 GHz: Case 4 RFSPACE TSA600 Vivaldi (330 x 240 mm, 11 dBi @ 2.4 GHz datasheet) =====
+TX frozen at the settled Stage A design: 52.2 mm dipole, 500 mm high, 20 dBm; receiver wired to its terminals
+Jammer: 30 dBm, all inside the 20 MHz channel. J/S target >= 10 dB.
+V2: perfect impedance match assumed (mismatch loss of the jammer and TX ports removed from S21); jammer port power 30 dBm.
+
+TX alone (PEC)     : S11  -16.0 dB, Zin  68.8 +0.7j ohm, max realized gain  8.14 dBi
+Jammer alone (pec ): f_res 2.434 GHz, S11  -29.2 dB, Zin 124.6 -8.7j ohm, max realized gain 16.55 dBi, towards the TX 10.52 dBi, back -5.65 dBi (free-space part)
+Jammer alone (free): f_res 2.433 GHz, S11  -29.2 dB, Zin 124.4 -8.6j ohm, max realized gain 10.60 dBi, towards the TX 10.60 dBi, back -5.64 dBi (free-space part)
+
+   d/mm  ground | S11 jam  coupling |   J dBm   J/S dB | P_TX for +10 dB | settled A coupling  J/S | change
+    100  PEC    |  -30.7    -18.1   |    11.9     -8.1 |       1.9 dBm   |    -20.7        -13.7 |  +2.6 dB
+    500  PEC    |  -29.6    -24.2   |     5.8    -14.2 |      -4.2 dBm   |    -32.2        -25.2 |  +8.0 dB
+   1000  PEC    |  -29.3    -27.2   |     2.8    -17.2 |      -7.2 dBm   |    -46.2        -39.2 | +19.0 dB
+   2000  PEC    |  -29.2    -35.8   |    -5.8    -25.8 |     -15.8 dBm   |    -42.5        -35.5 |  +6.7 dB
+   1010  free   |  -29.3    -28.9   |     1.1    -18.9 |      -8.9 dBm   |
+
+Ceiling: J/S can not exceed 30 - 20 = 10 dB however good the coupling.
+Case check, free space at 1010 mm: simulated -28.9 dB vs Case 4 figure -27.1 dB (2 dBi omni receiver; our TX dipole is 2.1 dBi)
+</pre>
+<figure><img src="plots/00a_geometry_TX_alone.png"><figcaption>00a_geometry_TX_alone.png</figcaption></figure>
+<figure><img src="plots/00b_geometry_interferer_alone.png"><figcaption>00b_geometry_interferer_alone.png</figcaption></figure>
+<figure><img src="plots/00c_geometry_both.png"><figcaption>00c_geometry_both.png</figcaption></figure>
+<figure><img src="plots/01_S11_and_impedance.png"><figcaption>01_S11_and_impedance.png</figcaption></figure>
+<figure><img src="plots/01b_VSWR.png"><figcaption>01b_VSWR.png</figcaption></figure>
+<figure><img src="plots/02_pattern_polar_tx.png"><figcaption>02_pattern_polar_tx.png</figcaption></figure>
+<figure><img src="plots/02b_pattern_rect_tx.png"><figcaption>02b_pattern_rect_tx.png</figcaption></figure>
+<figure><img src="plots/02c_pattern_map_tx.png"><figcaption>02c_pattern_map_tx.png</figcaption></figure>
+<figure><img src="plots/03_pattern_polar_jam.png"><figcaption>03_pattern_polar_jam.png</figcaption></figure>
+<figure><img src="plots/03b_pattern_rect_jam.png"><figcaption>03b_pattern_rect_jam.png</figcaption></figure>
+<figure><img src="plots/03c_pattern_map_jam.png"><figcaption>03c_pattern_map_jam.png</figcaption></figure>
+<figure><img src="plots/04_pattern_3d_tx.png"><figcaption>04_pattern_3d_tx.png</figcaption></figure>
+<figure><img src="plots/05_pattern_3d_jam.png"><figcaption>05_pattern_3d_jam.png</figcaption></figure>
+<figure><img src="plots/06_received_power_vs_frequency.png"><figcaption>06_received_power_vs_frequency.png</figcaption></figure>
+<figure><img src="plots/07_coupling_S21_vs_frequency.png"><figcaption>07_coupling_S21_vs_frequency.png</figcaption></figure>
+<figure><img src="plots/08_pattern_polar_scene.png"><figcaption>08_pattern_polar_scene.png</figcaption></figure>
+<figure><img src="plots/09_pattern_3d_scene.png"><figcaption>09_pattern_3d_scene.png</figcaption></figure>
+<figure><img src="plots/10_receiver_power_vs_distance.png"><figcaption>10_receiver_power_vs_distance.png</figcaption></figure>
+<figure><img src="plots/Efield_map.png"><figcaption>Efield_map.png</figcaption></figure>
+<figure><img src="plots/JS_vs_distance.png"><figcaption>JS_vs_distance.png</figcaption></figure>
+<figure><img src="plots/JS_vs_frequency.png"><figcaption>JS_vs_frequency.png</figcaption></figure>
+<figure><img src="plots/coupling_vs_distance.png"><figcaption>coupling_vs_distance.png</figcaption></figure>
+<figure><img src="plots/match_coupling.png"><figcaption>match_coupling.png</figcaption></figure>
+<figure><img src="plots/pattern_elevation.png"><figcaption>pattern_elevation.png</figcaption></figure>
+<figure><img src="plots/pattern_horizontal.png"><figcaption>pattern_horizontal.png</figcaption></figure>
+<figure><img src="../compare/compare_JS_vs_distance.png"><figcaption>compare_JS_vs_distance.png</figcaption></figure>
+<figure><img src="../compare/compare_coupling_vs_distance.png"><figcaption>compare_coupling_vs_distance.png</figcaption></figure>
+<figure><img src="../compare/compare_coupling_vs_frequency.png"><figcaption>compare_coupling_vs_frequency.png</figcaption></figure>

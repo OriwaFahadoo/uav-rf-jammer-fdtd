@@ -1,0 +1,4 @@
+part 1 = tx_wire
+part 2 = jam_plate
+part 3 = jam_wire
+part 4 = jam_reflector

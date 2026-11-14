@@ -1,0 +1,18 @@
+===== Stage C @ 2.400 GHz: Case 4 RFSPACE TSA600 Vivaldi (330 x 240 mm, 11 dBi @ 2.4 GHz datasheet) =====
+TX frozen at the settled Stage A design: 52.2 mm dipole, 500 mm high, 20 dBm; receiver wired to its terminals
+Jammer: 30 dBm, all inside the 20 MHz channel. J/S target >= 10 dB.
+V2: perfect impedance match assumed (mismatch loss of the jammer and TX ports removed from S21); jammer port power 30 dBm.
+
+TX alone (PEC)     : S11  -16.0 dB, Zin  68.8 +0.7j ohm, max realized gain  8.14 dBi
+Jammer alone (pec ): f_res 2.434 GHz, S11  -29.2 dB, Zin 124.6 -8.7j ohm, max realized gain 16.55 dBi, towards the TX 10.52 dBi, back -5.65 dBi (free-space part)
+Jammer alone (free): f_res 2.433 GHz, S11  -29.2 dB, Zin 124.4 -8.6j ohm, max realized gain 10.60 dBi, towards the TX 10.60 dBi, back -5.64 dBi (free-space part)
+
+   d/mm  ground | S11 jam  coupling |   J dBm   J/S dB | P_TX for +10 dB | settled A coupling  J/S | change
+    100  PEC    |  -30.7    -18.1   |    11.9     -8.1 |       1.9 dBm   |    -20.7        -13.7 |  +2.6 dB
+    500  PEC    |  -29.6    -24.2   |     5.8    -14.2 |      -4.2 dBm   |    -32.2        -25.2 |  +8.0 dB
+   1000  PEC    |  -29.3    -27.2   |     2.8    -17.2 |      -7.2 dBm   |    -46.2        -39.2 | +19.0 dB
+   2000  PEC    |  -29.2    -35.8   |    -5.8    -25.8 |     -15.8 dBm   |    -42.5        -35.5 |  +6.7 dB
+   1010  free   |  -29.3    -28.9   |     1.1    -18.9 |      -8.9 dBm   |
+
+Ceiling: J/S can not exceed 30 - 20 = 10 dB however good the coupling.
+Case check, free space at 1010 mm: simulated -28.9 dB vs Case 4 figure -27.1 dB (2 dBi omni receiver; our TX dipole is 2.1 dBi)

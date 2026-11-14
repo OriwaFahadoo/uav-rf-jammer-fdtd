@@ -1,0 +1,5 @@
+stage,peak_gain_dBi,gain_toward_TX_dBi,front_to_back_dB,HPBW_E_plane_deg,HPBW_H_plane_deg,peak_theta_deg,peak_phi_deg
+A,0.75,0.72,0.0,102,360,84,180
+B,12.20,12.19,28.4,48,34,88,180
+C,10.61,10.61,16.3,31,60,90,180
+D,11.95,11.95,22.5,20,54,90,180

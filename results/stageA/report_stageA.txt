@@ -1,0 +1,18 @@
+===== Stage A @ 2.400 GHz: Case 3 bare omni (lambda/4 whip on a 50 mm plate) =====
+TX frozen at the settled Stage A design: 52.2 mm dipole, 500 mm high, 20 dBm; receiver wired to its terminals
+Jammer: 30 dBm, all inside the 20 MHz channel. J/S target >= 10 dB.
+V2: perfect impedance match assumed (mismatch loss of the jammer and TX ports removed from S21); jammer port power 30 dBm.
+
+TX alone (PEC)     : S11  -16.0 dB, Zin  68.8 +0.7j ohm, max realized gain  8.14 dBi
+Jammer alone (pec ): f_res 2.376 GHz, S11   -7.3 dB, Zin  20.0 +2.8j ohm, max realized gain  6.74 dBi, towards the TX  0.72 dBi, back  0.72 dBi (free-space part)
+Jammer alone (free): f_res 2.376 GHz, S11   -7.3 dB, Zin  20.0 +2.8j ohm, max realized gain  0.75 dBi, towards the TX  0.72 dBi, back  0.72 dBi (free-space part)
+
+   d/mm  ground | S11 jam  coupling |   J dBm   J/S dB | P_TX for +10 dB | settled A coupling  J/S | change
+    100  PEC    |   -7.2    -17.2   |    12.8     -7.2 |       2.8 dBm   |    -20.7        -13.7 |  +3.5 dB
+    500  PEC    |   -7.3    -30.0   |    -0.0    -20.0 |     -10.0 dBm   |    -32.2        -25.2 |  +2.2 dB
+   1000  PEC    |   -7.3    -38.8   |    -8.8    -28.8 |     -18.8 dBm   |    -46.2        -39.2 |  +7.4 dB
+   2000  PEC    |   -7.3    -38.9   |    -8.9    -28.9 |     -18.9 dBm   |    -42.5        -35.5 |  +3.6 dB
+   1010  free   |   -7.3    -36.8   |    -6.8    -26.8 |     -16.8 dBm   |
+
+Ceiling: J/S can not exceed 30 - 20 = 10 dB however good the coupling.
+Case check, free space at 1010 mm: simulated -36.8 dB vs Case 3 figure -36.1 dB (2 dBi omni receiver; our TX dipole is 2.1 dBi)

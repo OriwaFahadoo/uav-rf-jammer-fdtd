@@ -1,0 +1,2 @@
+part 1 = jam_plate
+part 2 = jam_wire
