@@ -1,4 +1,4 @@
-# uav-rf-jammer-fdtd
+# UAV-RR-Jammer-FDTD
 
 Electromagnetic simulation of a portable 2.4 GHz RF jammer and its coupling into a drone's Wi-Fi link antenna,
 for four jammer antenna designs.
@@ -193,7 +193,7 @@ If you use this code, please cite:
 
 ```bibtex
 @misc{uav_rf_jammer_fdtd,
-  author       = {AUTHOR NAMES},
+  author       = {Dr. Amith Khandakar, Fahad Abdelshafi Ali},
   title        = {Design and Optimization of a Portable Electromagnetic Gun for Targeted RF Signal Suppression:
                   Simulation},
   year         = {2026},
@@ -205,9 +205,27 @@ If you use this code, please cite:
 
 ## License
 
-LICENSE TO BE CHOSEN. Add a `LICENSE` file at the repository root and state the license here.
+MIT License
 
-openEMS and CSXCAD are distributed under their own licenses (GPLv3 and LGPLv3) and are not included in this repository.
+Copyright (c) 2026 [Your Name], Qatar University
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Acknowledgements
 
